@@ -10,10 +10,10 @@ The problem
 
 Given a text file containing one entry per line for each vote, build a symbol table to keep track of each video and the number of votes that it received. Your input file will contain comma-separated data of the following form:
 
-7VvBnz1Ngi4,1Y-Au-tnBLs,right
-6L78MVrd14c,7zCIRPQ8qWc,right
-7zCIRPQ8qWc,1Y-Au-tnBLs,left
-...
+- 7VvBnz1Ngi4,1Y-Au-tnBLs,right
+- 6L78MVrd14c,7zCIRPQ8qWc,right
+- 7zCIRPQ8qWc,1Y-Au-tnBLs,left
+- ...
 
 the first two strings are the code for each video being compared and the third string is always either "left" or "right" to indicate the winner.There will be (many) repetitions of video codes, note, for example the green and red text in the sample above. 
 
@@ -43,8 +43,8 @@ Deliverables
 
 Submit the following files through the CSC Department website:
 
-BinarySearchST.java (modified version using array of Item objects ) 
-YoutubeVideoEntry.java 
-YoutubeComedySlam.java
-a readme.txt file, answering all questions. 
-YoutubeComedySlam.doc A project report, including listings of the above files and sample runs (and/or screenshots) from your testing.
+- BinarySearchST.java (modified version using array of Item objects ) 
+- YoutubeVideoEntry.java 
+- YoutubeComedySlam.java
+- a readme.txt file, answering all questions. 
+- YoutubeComedySlam.doc A project report, including listings of the above files and sample runs (and/or screenshots) from your testing.
